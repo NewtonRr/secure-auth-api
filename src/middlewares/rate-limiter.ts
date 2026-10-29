@@ -41,7 +41,7 @@ export const registerLimiter = rateLimit({
 export const loginIpLimiter = rateLimit({
   ...base,
   windowMs: 15 * 60_000,
-  limit: 10,
+  limit: 5,
   skipSuccessfulRequests: true,
   keyGenerator: ip,
   store: store('login-ip'),
