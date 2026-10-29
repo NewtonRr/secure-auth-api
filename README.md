@@ -1,3 +1,5 @@
+**English** | [Português (BR)](README.pt-BR.md)
+
 # auth-shield-api
 
 An authentication API that protects itself. Besides login and token handling, it filters abusive traffic in layers, so brute force, floods and token theft are stopped before they overload the server.
